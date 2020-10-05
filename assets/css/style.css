@@ -108,19 +108,19 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #topbar .contact-info i {
   color: #428bca;
-  padding: 4px;
+  /* padding: 4px; */
 }
 
 #topbar .contact-info .icofont-phone {
-  padding-left: 20px;
-  margin-left: 10px;
+  /* padding-left: 20px; */
+  /* margin-left: 10px; */
 }
 
 #topbar .social-links a {
   color: #5c768d;
-  padding: 4px 12px;
-  display: inline-block;
-  line-height: 1px;
+  /* padding: 4px 12px; */
+  /* display: inline-block; */
+  /* line-height: 1px; */
   transition: 0.3s;
 }
 
@@ -129,10 +129,52 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 /*--------------------------------------------------------------
+# Top Bar 2
+--------------------------------------------------------------*/
+#topbar2 {
+  background: #fff;
+  padding-top: 5px;
+  /* border-bottom: 1px solid #eee; */
+  font-size: 14px;
+}
+
+#topbar2 a {
+  line-height: 1;
+  color: #444;
+  transition: 0.3s;
+}
+
+#topbar2 a:hover {
+  color: #428bca;
+}
+
+#topbar2 i {
+  color: #428bca;
+  padding: 4px;
+}
+
+#topbar2 .icofont-phone {
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+#topbar2 .social-links a {
+  color: #5c768d;
+  /* padding: 4px 12px; */
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+
+#topbar2 .social-links a:hover {
+  color: #428bca;
+}
+
+/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 70px;
+  height: 90px;
   transition: all 0.5s;
   transition: all 0.5s;
   padding: 10px 0;
@@ -147,7 +189,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #header .logo h1 {
   font-size: 28px;
   margin: 0;
-  padding: 10px 0;
+  padding: 10px 0 0 0;
   line-height: 1;
   font-weight: 400;
   letter-spacing: 3px;
@@ -172,6 +214,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu, .nav-menu * {
   margin: 0;
   padding: 0;
+  margin-top: -2px;
   list-style: none;
 }
 
