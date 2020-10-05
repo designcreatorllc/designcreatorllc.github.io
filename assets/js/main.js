@@ -159,6 +159,15 @@
     }, 1500, 'easeInOutExpo');
     return false;
   });
+  
+   // Back to top 2 button
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('.back-to-top2').fadeIn('slow');
+    } else {
+      $('.back-to-top2').fadeOut('slow');
+    }
+  });
 
   // Initiate the venobox plugin
   $(window).on('load', function() {
