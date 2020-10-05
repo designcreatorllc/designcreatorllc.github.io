@@ -154,8 +154,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #topbar2 .icofont-phone {
-  padding-left: 20px;
-  margin-left: 10px;
+  /* padding-left: 20px; */
+  /* margin-left: 10px; */
 }
 
 #topbar2 .social-links a {
