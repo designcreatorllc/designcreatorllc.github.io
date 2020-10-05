@@ -160,7 +160,7 @@
     return false;
   });
   
-   // Back to top 2 button
+   // Back to top 2 button - contact us
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top2').fadeIn('slow');
@@ -214,7 +214,7 @@
   // Init AOS
   function aos_init() {
     AOS.init({
-      duration: 1000,
+      duration: 300,
       easing: "ease-in-out-back",
       once: true
     });
