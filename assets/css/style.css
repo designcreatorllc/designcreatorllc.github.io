@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #topbar2 i {
   color: #428bca;
-  padding: 4px;
+  /* padding: 4px; */
 }
 
 #topbar2 .icofont-phone {
