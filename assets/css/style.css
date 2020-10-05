@@ -1439,6 +1439,27 @@ section {
   color: #fff;
 }
 
+.speicalLink {
+  font-size: 18px;
+  display: inline-block;
+  background: #768fa6;
+  color: #fff;
+  line-height: 1;
+  padding: 4px 0;
+  margin-right: 4px;
+  /* border-radius: 50%; */
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+}
+
+.speicalLink:hover {
+  background: #428bca;
+  color: #fff;
+  text-decoration: none;
+}
+
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
